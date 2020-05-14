@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:background="@android:drawable/ic_popup_disk_full"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@drawable/uisra_123"
+            android:scrollbarSize="?attr/actionBarSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Usuario:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Encuesta Satisfacción De Teletrabajo"
+        android:textColor="#673AB7"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/tvPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Se siente comodo trabajando desde casa?"
+        android:textColor="#3F51B5"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SI"
+            android:textColor="#2196F3" />
+
+        <RadioButton
+            android:id="@+id/rbNo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textColor="#2196F3" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvPregunta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Cumple con los objetivos?"
+        android:textColor="#3F51B5"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SI"
+            android:textColor="#2196F3" />
+
+        <RadioButton
+            android:id="@+id/rbNo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textColor="#2196F3" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/etPregunta3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Con que frecuencia interactua con sus compañeros?"
+        android:textColor="#3F51B5"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cbFrecuente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frecuente"
+        android:textColor="#2196F3" />
+
+    <CheckBox
+        android:id="@+id/cbPocoFrecuente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poco Frecuente"
+        android:textColor="#2196F3" />
+
+    <CheckBox
+        android:id="@+id/cbNunca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nunca"
+        android:textColor="#2196F3" />
+
+    <TextView
+        android:id="@+id/tvPregunta4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Cuantas horas al día dedicas al teletrabajo?"
+        android:textColor="#3F51B5"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cbOcho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8 Horas"
+        android:textColor="#2196F3" />
+
+    <CheckBox
+        android:id="@+id/cbMasOcho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mas de 8 Horas "
+        android:textColor="#2196F3" />
+
+    <CheckBox
+        android:id="@+id/cbMenosOcho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menos de 8 Horas"
+        android:textColor="#2196F3" />
+
+    <TextView
+        android:id="@+id/tvPregunta5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recomendarias Teletrabajo para el futuro"
+        android:textColor="#3F51B5"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSi3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarSize="4dp"
+            android:text="SI"
+            android:textColor="#2196F3" />
+
+        <RadioButton
+            android:id="@+id/rbNo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textColor="#2196F3" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Enviar"
+            android:text="Enviar"
+            android:textColor="#3F51B5"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

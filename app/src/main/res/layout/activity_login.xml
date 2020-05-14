@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:background="@drawable/ic_launcher_foreground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvMensaje"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:textColor="#F44336"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        android:textColor="#3F51B5" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUserName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:onClick="Ingresar"
+        android:text="Ingresar"
+        android:textColor="#3F51B5"
+        android:textStyle="bold" />
+
+</RelativeLayout>
